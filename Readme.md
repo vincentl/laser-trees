@@ -1,6 +1,6 @@
 # Two Part Laser Cut Christmas Tree with 3D Printed Star
 
-![Image of two intersecting Christmas tree profiles that form a 3D tree](https://github.com/vincentl/laser-tress/blob/main/assets/readme-tree.png)
+![Image of two intersecting Christmas tree profiles that form a 3D tree](https://github.com/vincentl/laser-trees/blob/main/assets/readme-tree.png)
 
 This project contains SVG outlines for laser cutting 2-part Christmas trees
 from 3mm plywood and 3D printing stars for larger trees.
