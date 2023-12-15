@@ -12,7 +12,7 @@ Christmas tree silhouettes from 3mm plywood. The two parts interlock to form a
 self-supporting, 3D Christmas tree.
 - `2-part-tree-50mm.svg`, `2-part-tree-75mm.svg`, and `2-part-tree-100mm.svg`, contain paths for both parts and the dimension indicates the height of the tree
 - `2-part-tree-400mm-square-bottom.svg` and `2-part-tree-400mm-square-top.svg` each contain a path for one part that fits on a 400mm square plywood sheet that together produce a 445mm tall tree.
-- `2-part-tree-template.svg` contains two paths that must be aligned and combined to form a tree of another desired height.
+- `2-part-tree-template.svg` contains two paths that must be aligned and combined to form a tree of any desired height.
   - Scale the tree path to the desired height and lock the width to scale proportional to the height
   - Scale the rectangular cut path to **half** the desired height **independent** of the width
   - Adjust the width of the rectangular cut to match the material thickness plus a tolerance
