@@ -1,12 +1,12 @@
-m =  1;              // minkowski radius
-h = 32;              // Height of spike
-e =  5;              // Edge length of a spike
-c = e*(1 + sqrt(2)); // Largest coordinate for Rhombicuboctahedron
-j =  8;              // Height of clip spike
+m =  1;                 // minkowski radius
+h = 32;                 // Height of spike
+e =  5;                 // 1/2 Edge length of a spike
+c = e*(1 + sqrt(2));    // Largest coordinate for Rhombicuboctahedron
+j =  8;                 // Height of clip spike
 
-b = 3;               // board thickness
-w = 2;               // clip wall
-l = 3;               // clip wall depth
+b = 3;                  // board thickness
+w = 2;                  // clip wall
+l = 3;                  // clip wall depth
 
 mirror([0,0,1])
   linear_extrude(height=0.5*c,scale=0.5)

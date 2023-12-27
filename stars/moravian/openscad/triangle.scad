@@ -1,7 +1,7 @@
-m =  1;              // minkowski radius
-h = 20;              // Height of spike
-e =  5;              // Edge length of a spike
-c = e*(1 + sqrt(2)); // Largest coordinate for Rhombicuboctahedron
+m =  1;                 // minkowski radius
+h = 20;                 // Height of spike
+e =  5;                 // 1/2 Edge length of a spike
+c = e*(1 + sqrt(2));    // Largest coordinate for Rhombicuboctahedron
 
 // Compute v - the vector perpendicular to the triangle face
 uv = cross([e-c,0,c-e], [0,e-c,c-e]);
@@ -46,3 +46,5 @@ minkowski(){
   }
   sphere(r=m,$fn=180);
 }
+
+

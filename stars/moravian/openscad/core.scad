@@ -1,9 +1,14 @@
-e =  5 + 2.0;        // Edge length of a spike + tolerance for glueing
-c = e*(1 + sqrt(2)); // Largest coordinate for Rhombicuboctahedron
+m =  1;                 // minkowski radius
+h = 32;                 // Height of spike
+e =  5;                 // 1/2 Edge length of a spike
+c = e*(1 + sqrt(2));    // Largest coordinate for Rhombicuboctahedron
+
+E = e + m + 0.5;        // edge + minkowski + tolerance
+C = E*(1 + sqrt(2));    // c for expanded Rhombicuboctahedron
 
 hull() 
 {
-  cube([e, e, c], center=true);
-  cube([e, c, e], center=true);
-  cube([c, e, e], center=true);
+  cube([E, E, C], center=true);
+  cube([E, C, E], center=true);
+  cube([C, E, E], center=true);
 }
